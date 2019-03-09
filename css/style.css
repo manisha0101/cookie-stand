@@ -4,15 +4,60 @@ body {
     background-position: right; 
     background-size:50% 50%;  
     background-repeat: no-repeat;
-    background-color: #6f9ed3
+    background-color: #acc9eb
   }
+
+/* base styles */
+
+a {
+    text-decoration: none;
+    /*color: #fff;*/
+}
+
+/* site styles */
+
+header {
+    background: rgb(238, 209, 234);
+    height: 130px;
+}
+
+header section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header img {
+    float: left;
+    margin-right: 150px;
+    margin-top: 15px;
+    /*height: 72px;*/
+    width: 220px;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: rgb(10, 57, 124);
+    text-align: justify;
+    font-weight:bold;
+    font-size: 18px;
+    
+}
+
+main {
+    width: 960px;
+    margin: 20px auto;
+}
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-family: Tangerine;
+    font-size: 50px;
     font-weight: bold;
-    color: #0e0101;
+    color: #dd70ce;
     padding-top: 0.3in;
-    text-align: center;
+    text-align: left;
+    text-decoration-style: solid;
 }
 h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -20,12 +65,13 @@ h2 {
     font-weight: bold;
     font-style: italic; 
     padding: 0.1in;
-    color: #e4e732;
+    color: #080808;
     
 }
 h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: Tangerine;
+    font-size: 35px;
+    font-weight: bold;
     padding: 0.05in;
     color: #000000;    
 }
@@ -35,14 +81,19 @@ p {
     color: #000000;
     padding: 0.05in;
     text-align: left;
+    line-break: auto;
+    font-weight: bolder;
+    
 }
 #bio {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: #aa0bb9;
-    padding: 0.05in;
+    font-family: sans-serif, Arial, Helvetica ;
+    font-size: 20px;
+    font-weight: normal;
+    color: #080808;
+    padding: 0.1in;
     text-align: center;
+    line-break: auto;
+    font-style:italic;
   }
  ul {
         display: inline-block;
@@ -55,6 +106,18 @@ p {
 
         
  }
+
+ .sub-banners li {
+    float: left;
+    margin: 30px 30px 30px 0;
+}
+
+.sub-banners li img {
+    float:left;
+    margin: 30px 30px 30px 0;
+   /* height: 180px;*/
+    width: 240px;
+}
 
  ul li {
     font-family: Arial, Helvetica, sans-serif;
